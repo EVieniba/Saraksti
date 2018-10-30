@@ -13,7 +13,7 @@ Sarakstos pieejami arī tādi resursi, kuri šobrīd vairs nav pieejami.
 
 ### Pieejamie saraksti
 * __sites.csv__ - vietņu saraksts, kurā iekļautas tādas mājaslapas, kurās visa pieejamā informācija ir uzskatāma par apšaubāmu; šajā sarakstā iekļauto domēnvārdu apakšdomēni arī uzskatāmi par maldinošiem (skat. klasifikāciju)
-* __facebook.csv__, __draugiem-lv.csv__, __twitter.csv__  - Attiecīgajā sociālajā tīklā vidē eksistējoši profili, grupas vai lapas, kurās novēroti sistemātiski centieni radīt vai uzturēt informāciju, kas atbilst augstākminētajai klasifikācijai
+* __social-media.csv__  - Sociālajos tīklos eksistējoši profili, grupas vai lapas, kurās novēroti sistemātiski centieni radīt vai uzturēt informāciju, kas atbilst augstākminētajai klasifikācijai
 * __articles.csv__ - saraksts, kurā apkopti atsevišķi raksti - gadījumos, kad konkrētā vietne (vēl) nav iekļauta `sites.csv` sarakstā vai arī gadījumos, kad plaši pazīstamā vietnē ir publicēti atsevišķi apšaubāmi raksti
 
 
@@ -25,6 +25,5 @@ Sarakstos pieejami arī tādi resursi, kuri šobrīd vairs nav pieejami.
 
 #### Tehniska atkāpe
 1. Saraksti tiks uzturēti kā CSV faili, kuros ir iespējams viegli izmantot daudzās vidēs/programmās.
-2. Pirmo divu kolonu nosaukumi mainīti netiks, bet atlikušo divu kolonu (R1,R2) mērķis tiks precizēts; šobrīd nav paredzēts, ka kolonu skaits failos varētu mainīties.
+2. Pirmo triju kolonu nosaukumi mainīti netiks, bet atlikušo divu kolonu (R1,R2) mērķis tiks precizēts; šobrīd nav paredzēts, ka kolonu skaits failos varētu mainīties.
 3. Gadījumos, kad sarakstā ir pieejamas vietnes vai raksti, "https://", "http://" un "www." netiek URL kolonnā iekļauts apzināti. Šiem sarakstiem var pievienot arī apakšdomēnus - kamēr vien nav gūts apstiprinājums, ka domēnvārds kopumā ir apšaubāms.
-4. Gadījumos, kad sarakstā apkopoti sociālo tīklu profili, sociālā tīkla domēnvārds netiek iekļauts un sarakstā iekļautā relatīvā adrese ir sasniedzama, tai sākumā pievienojot sociālā tīkla domēnvārdu. Piemēram, ja sarakstā ir iekļauts "SivēnsSivēnamDraugs", tad konkrētais profils/lapa/grupa Facebook sociālajā tīklā ir pieejams https://www.facebook.com/SivēnsSivēnamDraugs
