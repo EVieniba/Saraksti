@@ -1,7 +1,7 @@
 ## Elfu Vienības uzturētie resursu saraksti
 
 Šo sarakstu uzdevums ir informēt un padarīt plašākai publikai viegli pieejamu informāciju (un klasifikāciju) attiecībā uz identificētiem resursiem Internetā, kuros tiek izplatītas viltus ziņas, Kremļa naratīvi, naidu kurinoši teksti vai maldinoša informācija (dezorientēšana un veselā saprāta pārmākšana ar mistiku, sazvērestības teorijām, ezotēriku u.tml.).
-Sarakstos pieejami arī tādi resursi, kuri šobrīd vairs nav pieejami.
+Sarakstos iekļauti arī tādi resursi, kuri šobrīd vairs nav pieejami.
 
 
 ### Klasifikācija
